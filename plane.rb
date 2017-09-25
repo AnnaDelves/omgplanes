@@ -1,15 +1,13 @@
 class Plane
 
+  attr_reader :destination, :location
+
   def initialize (location)
     @location = location
   end
 
-  def location
-    @location
-  end
-
-  def destination (destination)
-    @destination
+  def set_destination(destination)
+    @destination = destination
   end
 
 end

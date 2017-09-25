@@ -9,7 +9,7 @@ require './plane'
 
     it 'can be given a destination' do
       annas_plane = Plane.new("stansted")
-      annas_plane.destination("heathrow")
+      annas_plane.set_destination("heathrow")
       expect(annas_plane.destination).to eq "heathrow"
     end
 
